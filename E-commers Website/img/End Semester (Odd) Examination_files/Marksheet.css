@@ -1,0 +1,181 @@
+﻿body
+{
+    line-height: 0.88;
+    font-size: 12px;
+    font-family: auto;
+}
+
+
+.backtrans
+{
+    background-color: transparent !important;
+}
+
+.wid40
+{
+    width: 40%;
+}
+
+hr.new4
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-top: 2px solid #54bd82;
+}
+
+.table
+{
+    margin-bottom: 0px;
+}
+.padding5 tr td, .padding5 tr th
+{
+    padding: 5px !important;
+}
+
+.table tr th
+{
+    border-top: 1px solid #54bd82 !important;
+    border-bottom: 1px solid #54bd82 !important;
+}
+
+.bordertop
+{
+    border-left: 1px solid white;
+    border-top: 1px solid #54bd82 !important;
+    border-right: 1px solid white;
+}
+
+.borderleft
+{
+    border-left: 1px solid #54bd82 !important;
+    border-right: 1px solid #54bd82 !important;
+}
+
+.borderright
+{
+    border-right: 1px solid #54bd82 !important;
+}
+
+.abbr
+{
+    font-size: 12px;
+    width: 70%;
+}
+.divabbr
+{
+    line-height: 1.22;
+    text-align: left;
+}
+.abbr table
+{
+    font-size: 12px;
+    width: auto;
+    margin: 0px;
+    line-height: 1;
+}
+
+.pagebr
+{
+    page-break-before: always;
+}
+
+.wid50
+{
+    width: 50%;
+}
+
+.wid10
+{
+    width: 10%;
+}
+
+.wid5
+{
+    width: 5%;
+}
+
+.bordertop0
+{
+    border-top: 0px !important;
+}
+.rowprint
+{
+    border: 6px solid #54bd82;
+    background-image: url(images/Marksheet%20back.jpg);
+    background-repeat: no-repeat;
+    background-size: 750px;
+}
+
+@media print
+{
+
+    .rowprint
+    {
+        border: 6px solid #54bd82;
+        background-image: url(images/Marksheet%20back.jpg);
+        background-repeat: no-repeat;
+        background-size: 750px;
+    }
+
+    .divtable
+    {
+        height: 960px;
+    }
+
+
+
+    .col-md-4
+    {
+        width: 25%;
+    }
+
+}
+.style1
+{
+    width: 8%;
+    border: 1px;
+}
+.style2
+{
+    height: 24px;
+}
+
+
+.fancy
+{
+    width: 100%;
+    text-align: center;
+    border-bottom: 2px solid #54bd82;
+    line-height: 0.1em;
+    margin: 10px -2px 10px -7px;
+}
+
+.fancy span
+{
+    color: #fedd96;
+    background-color: #54bd82;
+    border: 2px solid #54bd82;
+    padding: 0 10px;
+}
+
+
+.tbldata tr td:nth-child(2)
+{
+    text-align: left !important;
+}
+
+
+.tbldata tr td
+{
+    border-left: 1px solid #54bd82 !important;
+    border-right: 1px solid #54bd82 !important;
+}
+
+.traudit tr td
+{
+    border: 1px solid #54bd82;
+}
+.trauditcbcs
+{
+    border: 1px solid #54bd82;
+}
